@@ -1,0 +1,55 @@
+nav {
+  border : 1px solid black;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: rgb(3, 126, 118);
+  /*
+  un bleu vert avec 80% saturation 24%  lighness
+  background-color: hsl(182, 80%, 24%);
+  */
+}
+
+.btn > ul{
+  display: none;
+  position: absolute;
+  background-color: rgb(3, 126, 118);
+  /*
+  transform
+  */
+}
+
+.btn:hover{
+  background-color:rgb(5, 40,116)
+}
+
+.btn:hover > ul{
+  display: block;
+}
+
+.btn > ul > li{
+  padding: 20px;
+}
+
+.btn > ul > li:hover{
+  background-color: rgb(82,5,88);
+}
+/* selectionne les boutons film et jeux, mais moins évident à comprendre qu'un nom symbolique tel que btn
+nav>ul>li {
+  display: inline-block;
+}
+*/
+
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
